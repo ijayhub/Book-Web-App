@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: 'Nunito', sans-serif;
+  background-color: rgb(246, 179, 112);
+}
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+.header{
+  background-image:url('./img/cover.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  height:480px;
+  width:100%;
+  box-shadow: 5px 5px 5px rgba(0,0,0);
+}
+.overlay{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  background-color: rgba(21, 1, 0, 0.3);
+  height:480px;
+  @apply text-white;
+  
+}
+.logo{
+  @apply p-4 bg-amber-900 text-white flex justify-around items-center lg:text-3xl;
+  font-family: 'Bonheur Royale', cursive;
+}
+.Heading-text{
+  @apply lg:text-5xl mb-5 capitalize;
+}
+.input{
+  @apply py-2 px-2 rounded-l-lg border-none outline-none text-black;
+}
+.btn{
+  @apply bg-amber-900 border-none outline-none py-2 px-2 rounded-r-lg 
+}
+.btn-readmore{
+  @apply inline-flex items-center bg-amber-700 text-white p-1 rounded-lg shadow-lg py-2 px-3 ;
+}
+.bg-navbar{
+  background-image:url('./img/cover.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  @apply h-screen;
+
+}
+.btn-quote{
+  @apply bg-amber-900 text-white mt-12 p-1 border-none outline-none  rounded-full lg:w-1/4 flex items-center justify-center
+}
+.overlay-2{
+  background-color: rgba(21, 1, 0, 0.3);
+  @apply text-white h-screen;
+
+}
+.bookdetail{
+  @apply max-w-5xl mx-auto flex items-center justify-center 
+}
+.bookdetail-container{
+  @apply mt-12 rounded-2xl shadow-2xl p-3 h-auto bg-slate-100 mx-5 lg:mx-0
+}
+.bookdetail-title{
+  @apply pt-3 font-bold tracking-tight lg:text-2xl
+}
+
+.btn-bookdetail{
+  @apply bg-amber-800 text-white p-2 rounded-lg mr-3 border-none outline-none mt-3
+}
