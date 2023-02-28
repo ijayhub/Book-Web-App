@@ -36,9 +36,9 @@ This web app was created to allow users to search for books they love to read.
 
 ## Overview
 
-* [Repo Codes]()
+* [Repo Codes](https://github.com/ijayhub/Book-Web-App)
 
-* [Hosted Link]()
+* [Hosted Link](https://books-web-app.netlify.app/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
