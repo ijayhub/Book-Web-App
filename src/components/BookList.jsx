@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 const BookList = ({ books }) => {
 	
 	return (
-		<div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-8 lg:mt-20 rounded mx-5 lg:mx-0'>
+		<div className='book-list'>
 			{books.map((book) => (
 				<div
 					key={book.id}
-					className='bg-white rounded-2xl shadow-2xl p-3 h-auto'>
+					className='booklist-container'>
 					<div>
 						<img
 							src={book.volumeInfo.imageLinks.smallThumbnail}

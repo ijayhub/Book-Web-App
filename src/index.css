@@ -64,6 +64,12 @@ body{
   @apply text-white h-screen;
 
 }
+.book-list{
+  @apply grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-8 lg:mt-20 rounded mx-5 lg:mx-0
+}
+.booklist-container{
+  @apply bg-white rounded-2xl shadow-2xl p-3 h-auto hover:bg-amber-200
+}
 .bookdetail{
   @apply max-w-5xl mx-auto flex items-center justify-center 
 }
