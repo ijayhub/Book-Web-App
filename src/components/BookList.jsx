@@ -18,9 +18,6 @@ const BookList = ({ books }) => {
 						/>
 					</div>
 					<div>
-						<h5 className='pt-3 text-lg font-bold tracking-tight text-gray-900 text-center'>
-							Title: {book.volumeInfo.title}
-						</h5>
 						<p className='font-bold text-center pt-5'>By: {book.volumeInfo.authors}</p>
 					</div>
 					<Link to={`/books/${book.id}`}>
