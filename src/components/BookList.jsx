@@ -24,7 +24,7 @@ const BookList = ({ books }) => {
 						<p className='font-bold text-center pt-5'>By: {book.volumeInfo.authors}</p>
 					</div>
 					<Link to={`/books/${book.id}`}>
-						<div className='pt-8'>
+						<div className='pt-8 flex justify-center items-center'>
 							<button className='btn-readmore'>
 								Click to get the book details
 								<svg
