@@ -1,6 +1,6 @@
 <div id="top"></div>
 <div align="center">
-    <img src="./src/img/book.gif">
+    <img src="./src/img/demo.gif">
 </div>
 <h1  align="center" > Book-Web-App</h1>
 <!-- TABLE OF CONTENTS -->

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Navbar = () => {
-  return (
+    return (
 		<div>
 			<div className='logo'>
 				<h1 className='lg:text-3xl'>CR📚💖</h1>
