@@ -24,14 +24,13 @@
 ## About The Project
 
 This web app was created to allow users to search for books they love to read.
-**Features**
 
-
+** Key features of this project include:**
 ```
 
-1. Ability to Navigate pages.
-2. A search bar for looking up books.
-3. A clickable button that directs users to access additional details about the selected book.
+Page Navigation - The ability to navigate between pages seamlessly.
+Search Bar - A search bar that allows users to search for books based on keywords or phrases.
+Book Details - A clickable button that provides users with additional details about the selected book.
 ```
 
 ## Overview
